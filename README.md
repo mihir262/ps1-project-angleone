@@ -57,7 +57,7 @@ Three-panel layout per timeframe:
 
 ### Daily (365 days)
 
-![Daily Chart](daily.png)
+![Daily Chart](images/daily.png)
 
 
 | Buy Date | Buy ₹ | Sell Date | Sell ₹ | P&L ₹ | % | |
@@ -82,7 +82,7 @@ Three-panel layout per timeframe:
 
 ### Weekly (120 weeks)
 
-![Weekly Chart](weekly.png)
+![Weekly Chart](images/weekly.png)
 
 
 | Buy Date | Buy ₹ | Sell Date | Sell ₹ | P&L ₹ | % | |
@@ -100,7 +100,7 @@ Three-panel layout per timeframe:
 
 ### Monthly (60 months)
 
-![Monthly Chart](monthly.png)
+![Monthly Chart](images/monthly.png)
 
 
 | Buy Date | Buy ₹ | Sell Date | Sell ₹ | P&L ₹ | % | |

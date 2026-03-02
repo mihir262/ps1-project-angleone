@@ -2,9 +2,9 @@ import matplotlib.pyplot as plt
 import mplfinance as mpf
 import pandas as pd
 
-daily_df = pd.read_csv("angelone_daily_365d.csv", header=[0, 1], index_col=0)
-weekly_df = pd.read_csv("angelone_weekly_120w.csv", header=[0, 1], index_col=0)
-monthly_df = pd.read_csv("angelone_monthly_60m.csv", header=[0, 1], index_col=0)
+daily_df = pd.read_csv("data/angelone_daily_365d.csv", header=[0, 1], index_col=0)
+weekly_df = pd.read_csv("data/angelone_weekly_120w.csv", header=[0, 1], index_col=0)
+monthly_df = pd.read_csv("data/angelone_monthly_60m.csv", header=[0, 1], index_col=0)
 
 
 def clean_dataframe(df):

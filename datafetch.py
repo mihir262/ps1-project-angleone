@@ -13,7 +13,7 @@ print(f"Fetching daily data from {start_date_daily.date()} to {end_date.date()}.
 daily_data = yf.download(
     symbol, start=start_date_daily, end=end_date, interval="1d", progress=False
 )
-daily_data.to_csv("angelone_daily_365d.csv")
+daily_data.to_csv("data/angelone_daily_365d.csv")
 
 print(f"Daily data: {len(daily_data)} records saved to 'angelone_daily_365d.csv'")
 print(daily_data.tail())
@@ -28,7 +28,7 @@ print(f"\nFetching weekly data from {start_date_weekly.date()} to {end_date.date
 weekly_data = yf.download(
     symbol, start=start_date_weekly, end=end_date, interval="1wk", progress=False
 )
-weekly_data.to_csv("angelone_weekly_120w.csv")
+weekly_data.to_csv("data/angelone_weekly_120w.csv")
 
 print(f"Weekly data: {len(weekly_data)} records saved to 'angelone_weekly_120w.csv'")
 print(weekly_data.tail())
@@ -44,7 +44,7 @@ print(
 monthly_data = yf.download(
     symbol, start=start_date_monthly, end=end_date, interval="1mo", progress=False
 )
-monthly_data.to_csv("angelone_monthly_60m.csv")
+monthly_data.to_csv("data/angelone_monthly_60m.csv")
 
 print(f"Monthly data: {len(monthly_data)} records saved to 'angelone_monthly_60m.csv'")
 print(monthly_data.tail())
